@@ -2,8 +2,8 @@
 # scripts/update-cask fills in VERSION and SHA256 from a release DMG and CI pushes the result there.
 #   brew tap gaberger/earshot && brew install --cask earshot
 cask "earshot" do
-  version "1.3.1"
-  sha256 "fa539989968d6d48696ccd96bc93ffbaa0e442fb32fe9a393a31251d195b2628"
+  version "1.4.0"
+  sha256 "80abfc81d5020761bdf9d85e43086ef320eafe1d0b874f53329a6000c68577f4"
 
   url "https://github.com/gaberger/earshot/releases/download/v#{version}/Earshot-#{version}.dmg"
   name "Earshot"
